@@ -11,4 +11,3 @@ Feature: WU Registration
     Examples: 
       | firstName | middleName | lastName |
       | Subbu     | Mani       | Nani     |
-      | Sunil     | Anil       | Revuri   |

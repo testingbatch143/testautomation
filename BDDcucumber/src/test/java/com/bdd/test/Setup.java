@@ -60,10 +60,4 @@ public class Setup {
 		return driver;
 	}
 
-	public static void markTestStatus(String status, String reason, WebDriver driver) {
-		JavascriptExecutor jse = (JavascriptExecutor) driver;
-		jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \""
-				+ status + "\", \"reason\": \"" + reason + "\"}}");
-	}
-
 }

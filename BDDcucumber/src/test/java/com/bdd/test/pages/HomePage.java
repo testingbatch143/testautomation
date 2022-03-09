@@ -26,8 +26,6 @@ public class HomePage {
 		Assert.assertTrue(ele.isDisplayed());
 		Assert.assertTrue(ele.isEnabled());
 		ele.click();
-		
-		Setup.markTestStatus("passed", "Registration link Clicked Successfully", driver);
 	}
 
 }

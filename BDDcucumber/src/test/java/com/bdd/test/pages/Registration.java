@@ -36,23 +36,18 @@ public class Registration {
 
 		WebElement ele = driver.findElement(By.xpath("//img[@alt = 'logo']"));
 		Assert.assertTrue(ele.isDisplayed());
-		
-		Setup.markTestStatus("passed", "Registration Page Landed Successfully", driver);
 	}
 	
 	public void enterFirstName(String fName) {
 		firstName.sendKeys(fName);
-		Setup.markTestStatus("passed", "Entered First Name", driver);
 	}
 	
 	public void enterMiddleName(String mName) {
 		middelName.sendKeys(mName);
-		Setup.markTestStatus("passed", "Entered Middle Name", driver);
 	}
 	
 	public void enterLastName(String lName) {
 		lastName.sendKeys(lName);
-		Setup.markTestStatus("passed", "Entered Last Name", driver);
 	}
 
 }
