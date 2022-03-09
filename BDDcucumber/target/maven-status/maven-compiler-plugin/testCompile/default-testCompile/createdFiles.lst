@@ -1,0 +1,7 @@
+com\bdd\test\pages\HomePage.class
+com\bdd\test\runner\TestRunner.class
+com\bdd\test\pages\Registration.class
+com\bdd\test\Setup.class
+com\bdd\test\AppConstants.class
+com\bdd\test\steps\Hooks.class
+com\bdd\test\steps\HiveLoginSteps.class
